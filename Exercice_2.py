@@ -15,3 +15,4 @@ print(f{nom}: {stats})
 print(isinstance(pkmn, dict))
 print(isinstance(pkmn[Pikachu], list))
 print(isinstance(pkmn[Pikachu][0], int))
+import csv
