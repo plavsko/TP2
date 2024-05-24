@@ -18,3 +18,5 @@ writer = csv.writer(fichier_csv)
 
 >>>>>>> b2b396e37e995e0dcfa83f9672219291794d93f5
  writer.writerow(['reel', 'imaginaire'])
+for num_complexe in data:
+        writer.writerow(num_complexe)
