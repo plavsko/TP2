@@ -13,3 +13,4 @@ data = json.load(fichier_json)
 writer = csv.writer(fichier_csv)
 with open('num_complexes.csv', 'w', newline='') as fichier_csv
 writer = csv.writer(fichier_csv)
+ writer.writerow(['reel', 'imaginaire'])
