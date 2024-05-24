@@ -1,4 +1,4 @@
-import csv
+# exercise Abdellah Merri 
 import csv
 def charger_pokemons_csv(filename):
     pokemons = {}
