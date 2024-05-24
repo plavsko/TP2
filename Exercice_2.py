@@ -9,10 +9,10 @@ def charger_pokemons_csv(filename):
             stats = list(map(int, row[1:]))
             pokemons[name] = stats
     return pokemons
-pkmn = charger_pokemons_csv(pokemon.csv)
+pkmn = charger_pokemons_csv("pokemon.csv")
 for nom, stats in pkmn.items():
-    print(f{nom}: {stats})
+    print(f"{nom}: {stats}")
 print(isinstance(pkmn, dict))
-print(isinstance(pkmn[Pikachu], list))
-print(isinstance(pkmn[Pikachu][0], int))
+print(isinstance(pkmn["Pikachu"], list))
+print(isinstance(pkmn["Pikachu"][0], int))
 
