@@ -3,4 +3,4 @@
 import json
 import csv
 with open('data.json', 'r') as fichier_json
-data = json.load(json_file)
+data = json.load(fichier_json)
